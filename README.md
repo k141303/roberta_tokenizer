@@ -3,7 +3,7 @@ Tokenizer for [liat-nakayama/japanese-roberta-base](https://huggingface.co/liat-
 
 ## How to use
 
-### Installation requirement python pakages
+### Install python pakages
 
 ~~~bash
 pip install -r japanese_roberta_tokenizer/requirements.txt
