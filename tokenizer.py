@@ -2,6 +2,8 @@ import os
 import json
 import codecs
 
+import re
+
 from janome.tokenizer import Tokenizer as JanomeTokenizer
 from subword_nmt.apply_bpe import BPE
 
