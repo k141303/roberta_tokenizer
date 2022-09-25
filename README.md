@@ -5,6 +5,12 @@ Tokenizer for
 
 registered in hagging face hub. 
 
+If you use japanese-roberta-base-**20201221**, need to change branch.
+
+```
+git checkout 20201221
+```
+
 ## How to use
 
 ### Install python pakages
