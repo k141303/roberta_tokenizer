@@ -1,5 +1,8 @@
 # japanese_roberta_tokenizer
-Tokenizer for [liat-nakayama/japanese-roberta-base-20201221](https://huggingface.co/liat-nakayama/japanese-roberta-base-20201221) registered in hagging face hub. 
+Tokenizer for
+- [liat-nakayama/japanese-roberta-base-20201221](https://huggingface.co/liat-nakayama/japanese-roberta-base-20201221) 
+- [liat-nakayama/japanese-roberta-base-20220905](https://huggingface.co/liat-nakayama/japanese-roberta-base-20220905)
+registered in hagging face hub. 
 
 ## How to use
 
