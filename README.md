@@ -6,13 +6,13 @@ Tokenizer for [liat-nakayama/japanese-roberta-base-20201221](https://huggingface
 ### Install python pakages
 
 ~~~bash
-pip install -r japanese_roberta_tokenizer/requirements.txt
+pip install .
 ~~~
 
 ### Import and Tokenize
 
 ~~~python:hoge.py
-from japanese_roberta_tokenizer import JapaneseRoBERTaTokenizer
+from roberta_tokenizer import JapaneseRoBERTaTokenizer
 
 tokenizer = JapaneseRoBERTaTokenizer()
 
