@@ -11,7 +11,7 @@ def _requires_from_file(filename):
 
 setup(
     name="roberta_tokenizer",
-    version="1.0.0",
+    version="1.0.1",
     description="RoBERTa Tokenizer",
     author="k141303",
     url="https://github.com/k141303/roberta_tokenizer",
