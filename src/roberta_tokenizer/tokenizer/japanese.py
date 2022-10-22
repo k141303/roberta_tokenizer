@@ -23,14 +23,14 @@ class BpeTokenizer(object):
     encoded = self.bpe.process_line(text)
     return encoded.split(" ")
 
-class JapaneseRoBERTaTokenizer(object):
+class JapaneseTokenizer(object):
   def __init__(self, version="20220905"):
     self.janome = JanomeTokenizer(wakati=True)
 
-    bpe_codes_path = os.path.join(os.path.dirname(__file__), "data/ja", version, "codes.txt")
+    bpe_codes_path = os.path.join(os.path.dirname(__file__), "../data/ja", version, "codes.txt")
     self.bpe = BpeTokenizer(bpe_codes_path)
 
-    vocab_path = os.path.join(os.path.dirname(__file__), "data/ja", version, "vocab.json")
+    vocab_path = os.path.join(os.path.dirname(__file__), "../data/ja", version, "vocab.json")
     self.vocab = load_json(vocab_path)
 
     self.cls_token = "<s>"

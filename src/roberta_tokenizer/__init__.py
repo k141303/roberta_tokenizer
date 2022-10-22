@@ -1,1 +1,1 @@
-from .japanese import JapaneseRoBERTaTokenizer
+from .main import AutoTokenizer
