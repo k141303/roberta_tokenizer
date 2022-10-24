@@ -37,6 +37,11 @@ class JapaneseTokenizer(object):
     self.pad_token = "<pad>"
     self.sep_token = "</s>"
     self.unk_token = "<unk>"
+    
+    self.cls_token_id = self.vocab[self.cls_token]
+    self.pad_token_id = self.vocab[self.pad_token]
+    self.sep_token_id = self.vocab[self.sep_token]
+    self.unk_token_id = self.vocab[self.unk_token]
 
   def tokenize(self, text):
     tokens = self.janome.tokenize(text)
